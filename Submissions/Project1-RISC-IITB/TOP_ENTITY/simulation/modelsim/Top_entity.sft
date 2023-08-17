@@ -1,0 +1,4 @@
+set tool_name "ModelSim-Altera (VHDL)"
+set corner_file_list {
+    {{"Slow Model"} {Top_entity.vho Top_entity_vhd.sdo}}
+}
