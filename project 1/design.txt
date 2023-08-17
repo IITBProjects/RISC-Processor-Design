@@ -1,0 +1,75 @@
+design.txt
+
+                                                    ARMITHMETIC INSTRUCTIONS
+
+State 1:
+pc -> memaddr
+pc -> ALU-A
++4 -> ALU-B
+ALU-C -> pc
+memdata -> IR
+
+State 2:
+IR (26-21) -> RF-A1
+IR (20-16) -> RF-A2
+RF-D1 -> T1
+RF-D2 -> T2
+
+State 3:
+T1 -> ALU-A
+T2 -> ALU-B
+ALU-C -> T3
+
+State 4:
+T3 -> RF-D3
+IR(15-11)) -> RF-A3
+
+                                                    LOAD STORE INSTRUCTIONS
+
+State 5:
+pc -> memaddr
+pc -> ALU-A
++4 -> ALU-B
+ALU-C -> pc
+memdata -> IR
+
+State 6:
+IR (25-21) -> RF-A1
+RF-D1 -> T1
+
+
+State 7:
+T1 -> ALU-A
+IR (15-0) -> SE16 -> ALU-B
+ALU-C -> T3
+
+State 8:
+T3 -> memaddr
+memdata -> T3
+
+State 9:
+T3 -> RF-D3
+IR(20-16) -> RF-A3
+
+                                                    BRANCH INSTRUCTIONS
+State 10:
+pc -> memaddr
+pc -> ALU-A
++4 -> ALU-B
+ALU-C -> pc
+memdata -> IR
+
+State 11:
+IR (26-21) -> RF-A1
+IR (20-16) -> RF-A2
+RF-D1 -> T1
+RF-D2 -> T2
+pc -> ALU-A
+IR (15-0) -> SE16 -> ALU-B
+ALU-C -> T3
+
+STATE 12:
+T1 -> ALU-A
+T2 -> ALU-B
+if(zero==1)
+    then T3 -> PC

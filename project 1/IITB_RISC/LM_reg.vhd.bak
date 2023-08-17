@@ -1,0 +1,20 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity LM_reg is
+	port(
+	MemMem_ADD_i: in std_logic_vector(15 downto 0);
+	control_sig:in std_logic_vector(1 downto 0);
+	Reg_ADD: out std_logic_vector(2 downto 0);
+	Mem_ADD: out std_logic_vector(2 downto 0));
+end entity;
+
+architecture LM_reg_arc of LM_reg_control is
+	signal Reg: std_logic_vector(2 downto 0);
+	signal Mem: std_logic_vector(15 downto 0);
+begin
+	
+	ALU_sel(1)  <= ins_2 and ALU_Op(1);
+	ALU_sel (0) <= ALU_Op(0);
+	
+end architecture;

@@ -1,0 +1,22 @@
+A_Reg                           AReg_write: out std_logic;
+Sign_extend                     imm6: out std_logic;
+Shift_left7
+Register_File                   RF_write: out std_logic;
+mux_before_RFD3                 control_sig:out std_logic_vector(2 downto 0);
+mux_before_RFA3                 control_sig:out std_logic;
+mux_before_MEMA1                control_sig:out std_logic;
+mux_before_ALUB                 control_sig:out std_logic_vector(2 downto 0);
+B_Reg                           BReg_write: out std_logic;
+IR                              IR_write: out std_logic;
+left_shift
+MDR                             MDR_write: out std_logic;
+Memory                          M_write: out std_logic
+mux_before_ALUA                 control_sig:out std_logic_vector(1 downto 0);
+ALU_Reg                         ALUReg_write: out std_logic;
+ALU_control                     ALU_Op: out std_logic_vector(1 downto 0);
+ALU                             ALU_control: out std_logic_vector(1 downto 0);
+ADD                             
+IITB_RISC                       
+CONTROLLER
+mux_before_RFA1_cs		<= "00";
+				mux_before_RFA2_cs		<= "00";

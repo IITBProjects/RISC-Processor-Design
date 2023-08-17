@@ -1,0 +1,296 @@
+Analysis & Synthesis report for Top_entity
+Tue May 10 22:42:03 2022
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++---------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                              ;
++-----------------------------+---------------------------------------------+
+; Analysis & Synthesis Status ; Successful - Tue May 10 22:42:03 2022       ;
+; Quartus Prime Version       ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Revision Name               ; Top_entity                                  ;
+; Top-level Entity Name       ; Top_entity                                  ;
+; Family                      ; MAX V                                       ;
+; Total logic elements        ; 0                                           ;
+; Total pins                  ; 2                                           ;
+; Total virtual pins          ; 0                                           ;
+; UFM blocks                  ; 0 / 1 ( 0 % )                               ;
++-----------------------------+---------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                              ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                           ; Setting            ; Default Value      ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Top-level entity name                                            ; Top_entity         ; Top_entity         ;
+; Family name                                                      ; MAX V              ; Cyclone V          ;
+; Use smart compilation                                            ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                      ; Off                ; Off                ;
+; Restructure Multiplexers                                         ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                ; Off                ;
+; Preserve fewer node names                                        ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto               ; Auto               ;
+; Safe State Machine                                               ; Off                ; Off                ;
+; Extract Verilog State Machines                                   ; On                 ; On                 ;
+; Extract VHDL State Machines                                      ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                 ; On                 ;
+; Parallel Synthesis                                               ; On                 ; On                 ;
+; NOT Gate Push-Back                                               ; On                 ; On                 ;
+; Power-Up Don't Care                                              ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                ; Off                ;
+; Remove Duplicate Registers                                       ; On                 ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                ; Off                ;
+; Ignore SOFT Buffers                                              ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                ; Off                ;
+; Optimization Technique                                           ; Balanced           ; Balanced           ;
+; Carry Chain Length                                               ; 70                 ; 70                 ;
+; Auto Carry Chains                                                ; On                 ; On                 ;
+; Auto Open-Drain Pins                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                ; Off                ;
+; Auto Shift Register Replacement                                  ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                 ; On                 ;
+; Allow Synchronous Control Signals                                ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                ; Off                ;
+; Auto Resource Sharing                                            ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                ; Off                ;
+; Report Parameter Settings                                        ; On                 ; On                 ;
+; Report Source Assignments                                        ; On                 ; On                 ;
+; Report Connectivity Checks                                       ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                ; Off                ;
+; Synchronization Register Chain Length                            ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                ; 100                ;
+; Clock MUX Protection                                             ; On                 ; On                 ;
+; Block Design Naming                                              ; Auto               ; Auto               ;
+; Synthesis Effort                                                 ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                 ; On                 ;
+; Analysis & Synthesis Message Level                               ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto               ; Auto               ;
++------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                         ; Library ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------+---------+
+; Top_entity.vhd                   ; yes             ; User VHDL File  ; /home/margav/Desktop/sem 4/cs232/pro2/Top_entity.vhd ;         ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------+---------+
+
+
++-----------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary         ;
++---------------------------------------------+-------+
+; Resource                                    ; Usage ;
++---------------------------------------------+-------+
+; Total logic elements                        ; 0     ;
+;     -- Combinational with no register       ; 0     ;
+;     -- Register only                        ; 0     ;
+;     -- Combinational with a register        ; 0     ;
+;                                             ;       ;
+; Logic element usage by number of LUT inputs ;       ;
+;     -- 4 input functions                    ; 0     ;
+;     -- 3 input functions                    ; 0     ;
+;     -- 2 input functions                    ; 0     ;
+;     -- 1 input functions                    ; 0     ;
+;     -- 0 input functions                    ; 0     ;
+;                                             ;       ;
+; Logic elements by mode                      ;       ;
+;     -- normal mode                          ; 0     ;
+;     -- arithmetic mode                      ; 0     ;
+;     -- qfbk mode                            ; 0     ;
+;     -- register cascade mode                ; 0     ;
+;     -- synchronous clear/load mode          ; 0     ;
+;     -- asynchronous clear/load mode         ; 0     ;
+;                                             ;       ;
+; Total registers                             ; 0     ;
+; I/O pins                                    ; 2     ;
++---------------------------------------------+-------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                ;
++----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+---------------------+-------------+--------------+
+; Compilation Hierarchy Node ; Logic Cells ; LC Registers ; UFM Blocks ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name ; Entity Name ; Library Name ;
++----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+---------------------+-------------+--------------+
+; |Top_entity                ; 0 (0)       ; 0            ; 0          ; 2    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |Top_entity         ; Top_entity  ; work         ;
++----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+---------------------+-------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Processing started: Tue May 10 22:41:51 2022
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Top_entity -c Top_entity
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 6 design units, including 3 entities, in source file ADD.vhd
+    Info (12022): Found design unit 1: ADD-ADD_arc File: /home/margav/Desktop/sem 4/cs232/pro2/ADD.vhd Line: 15
+    Info (12022): Found design unit 2: full_adder-full_adder_arc File: /home/margav/Desktop/sem 4/cs232/pro2/ADD.vhd Line: 82
+    Info (12022): Found design unit 3: ADD_4bit-ADD_4bit_arc File: /home/margav/Desktop/sem 4/cs232/pro2/ADD.vhd Line: 105
+    Info (12023): Found entity 1: ADD File: /home/margav/Desktop/sem 4/cs232/pro2/ADD.vhd Line: 5
+    Info (12023): Found entity 2: full_adder File: /home/margav/Desktop/sem 4/cs232/pro2/ADD.vhd Line: 72
+    Info (12023): Found entity 3: ADD_4bit File: /home/margav/Desktop/sem 4/cs232/pro2/ADD.vhd Line: 95
+Info (12021): Found 2 design units, including 1 entities, in source file ALU.vhd
+    Info (12022): Found design unit 1: ALU-ALU_arct File: /home/margav/Desktop/sem 4/cs232/pro2/ALU.vhd Line: 17
+    Info (12023): Found entity 1: ALU File: /home/margav/Desktop/sem 4/cs232/pro2/ALU.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file carry_Reg.vhd
+    Info (12022): Found design unit 1: carry_Reg-carry_Reg_arc File: /home/margav/Desktop/sem 4/cs232/pro2/carry_Reg.vhd Line: 11
+    Info (12023): Found entity 1: carry_Reg File: /home/margav/Desktop/sem 4/cs232/pro2/carry_Reg.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file InstructionDecode.vhd
+    Info (12022): Found design unit 1: InstructionDecode-InstructionDecode_arc File: /home/margav/Desktop/sem 4/cs232/pro2/InstructionDecode.vhd Line: 40
+    Info (12023): Found entity 1: InstructionDecode File: /home/margav/Desktop/sem 4/cs232/pro2/InstructionDecode.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file InstructionExecute.vhd
+    Info (12022): Found design unit 1: InstructionExecute-InstructionExecute_arc File: /home/margav/Desktop/sem 4/cs232/pro2/InstructionExecute.vhd Line: 47
+    Info (12023): Found entity 1: InstructionExecute File: /home/margav/Desktop/sem 4/cs232/pro2/InstructionExecute.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file Testbench.vhd
+    Info (12022): Found design unit 1: Testbench-Behave File: /home/margav/Desktop/sem 4/cs232/pro2/Testbench.vhd Line: 9
+    Info (12023): Found entity 1: Testbench File: /home/margav/Desktop/sem 4/cs232/pro2/Testbench.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file Sign_extend.vhd
+    Info (12022): Found design unit 1: Sign_extend-Sign_extend_arc File: /home/margav/Desktop/sem 4/cs232/pro2/Sign_extend.vhd Line: 11
+    Info (12023): Found entity 1: Sign_extend File: /home/margav/Desktop/sem 4/cs232/pro2/Sign_extend.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file Register_File.vhd
+    Info (12022): Found design unit 1: Register_File-Register_File_arc File: /home/margav/Desktop/sem 4/cs232/pro2/Register_File.vhd Line: 14
+    Info (12023): Found entity 1: Register_File File: /home/margav/Desktop/sem 4/cs232/pro2/Register_File.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file pc.vhd
+    Info (12022): Found design unit 1: pc-pc_arc File: /home/margav/Desktop/sem 4/cs232/pro2/pc.vhd Line: 11
+    Info (12023): Found entity 1: pc File: /home/margav/Desktop/sem 4/cs232/pro2/pc.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file MemoryAccess.vhd
+    Info (12022): Found design unit 1: MemoryAccess-MemoryAccess_arc File: /home/margav/Desktop/sem 4/cs232/pro2/MemoryAccess.vhd Line: 36
+    Info (12023): Found entity 1: MemoryAccess File: /home/margav/Desktop/sem 4/cs232/pro2/MemoryAccess.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file Memory.vhd
+    Info (12022): Found design unit 1: Memory-Memory_arc File: /home/margav/Desktop/sem 4/cs232/pro2/Memory.vhd Line: 12
+    Info (12023): Found entity 1: Memory File: /home/margav/Desktop/sem 4/cs232/pro2/Memory.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file left_shift.vhd
+    Info (12022): Found design unit 1: left_shift-shift File: /home/margav/Desktop/sem 4/cs232/pro2/left_shift.vhd Line: 12
+    Info (12023): Found entity 1: left_shift File: /home/margav/Desktop/sem 4/cs232/pro2/left_shift.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file InstructionFetch.vhd
+    Info (12022): Found design unit 1: InstructionFetch-InstructionFetch_arc File: /home/margav/Desktop/sem 4/cs232/pro2/InstructionFetch.vhd Line: 19
+    Info (12023): Found entity 1: InstructionFetch File: /home/margav/Desktop/sem 4/cs232/pro2/InstructionFetch.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file Top_entity.vhd
+    Info (12022): Found design unit 1: Top_entity-Top_entity_arc File: /home/margav/Desktop/sem 4/cs232/pro2/Top_entity.vhd Line: 8
+    Info (12023): Found entity 1: Top_entity File: /home/margav/Desktop/sem 4/cs232/pro2/Top_entity.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file WriteBack.vhd
+    Info (12022): Found design unit 1: WriteBack-WriteBack_arc File: /home/margav/Desktop/sem 4/cs232/pro2/WriteBack.vhd Line: 35
+    Info (12023): Found entity 1: WriteBack File: /home/margav/Desktop/sem 4/cs232/pro2/WriteBack.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file zero_Reg.vhd
+    Info (12022): Found design unit 1: zero_Reg-zero_Reg_arc File: /home/margav/Desktop/sem 4/cs232/pro2/zero_Reg.vhd Line: 11
+    Info (12023): Found entity 1: zero_Reg File: /home/margav/Desktop/sem 4/cs232/pro2/zero_Reg.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file Execute_Control.vhd
+    Info (12022): Found design unit 1: Execute_Control-Execute_Control_arc File: /home/margav/Desktop/sem 4/cs232/pro2/Execute_Control.vhd Line: 28
+    Info (12023): Found entity 1: Execute_Control File: /home/margav/Desktop/sem 4/cs232/pro2/Execute_Control.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file FetchEncoder.vhd
+    Info (12022): Found design unit 1: Fetch_Encoder-Fetch_Encoder_arc File: /home/margav/Desktop/sem 4/cs232/pro2/FetchEncoder.vhd Line: 16
+    Info (12023): Found entity 1: Fetch_Encoder File: /home/margav/Desktop/sem 4/cs232/pro2/FetchEncoder.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file Execute_Control_cz.vhd
+    Info (12022): Found design unit 1: Execute_Control_cz-Execute_Control_cz_arc File: /home/margav/Desktop/sem 4/cs232/pro2/Execute_Control_cz.vhd Line: 33
+    Info (12023): Found entity 1: Execute_Control_cz File: /home/margav/Desktop/sem 4/cs232/pro2/Execute_Control_cz.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file Next_instruction.vhd
+    Info (12022): Found design unit 1: Next_instruction-Next_instruction_arc File: /home/margav/Desktop/sem 4/cs232/pro2/Next_instruction.vhd Line: 17
+    Info (12023): Found entity 1: Next_instruction File: /home/margav/Desktop/sem 4/cs232/pro2/Next_instruction.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file Stall_Control.vhd
+    Info (12022): Found design unit 1: Stall_Control-Stall_Control_arc File: /home/margav/Desktop/sem 4/cs232/pro2/Stall_Control.vhd Line: 14
+    Info (12023): Found entity 1: Stall_Control File: /home/margav/Desktop/sem 4/cs232/pro2/Stall_Control.vhd Line: 5
+Info (12127): Elaborating entity "Top_entity" for the top level hierarchy
+Warning (21074): Design contains 2 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "rst" File: /home/margav/Desktop/sem 4/cs232/pro2/Top_entity.vhd Line: 5
+    Warning (15610): No output dependent on input pin "clk" File: /home/margav/Desktop/sem 4/cs232/pro2/Top_entity.vhd Line: 5
+Info (21057): Implemented 2 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 2 input pins
+    Info (21059): Implemented 0 output pins
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 400 megabytes
+    Info: Processing ended: Tue May 10 22:42:03 2022
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:35
+
+

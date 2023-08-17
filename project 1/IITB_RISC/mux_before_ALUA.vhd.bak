@@ -1,0 +1,26 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity mux_before_ALUA is
+	port(reg_D1:in std_logic_vector(15 downto 0);
+	pc:in std_logic_vector(15 downto 0);
+	control_sig:in std_logic_vector(1 downto 0);
+	signextend_result: in std_logic_vector(15 downto 0);
+	output : out std_logic_vector(15 downto 0));
+end entity;
+
+architecture mux_before_ALUA_arc of mux_before_ALUA is
+begin
+	process (control_sig)
+	begin
+			if (control_sig(1) = '1') then
+					output <= pc;
+			elsif (control_sig(0) = '1') then
+					output <= signextend_result;
+			else
+					output <= reg_D1;
+			end if;
+	end process;
+	
+end architecture;

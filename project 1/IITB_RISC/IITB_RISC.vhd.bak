@@ -1,0 +1,123 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity IITB_RISC is
+	port(clk, rst: in std_logic;
+	in_pc: in std_logic_vector(15 downto 0);
+	out_pc: out std_logic_vector(7 downto 0);
+	outpc_valid: out std_logic);
+	
+end entity;
+
+architecture IITB_RISC_arc of IITB_RISC is
+	
+--	constant BINARY_ZERO : std_logic_vector(7 downto 0) := "00000000";
+--	constant BINARY_ONE : std_logic_vector(7 downto 0) := "00000001";
+--    constant ASCII_ESC : std_logic_vector(7 downto 0) := "00011011";
+--    constant ASCII_SPACE : std_logic_vector(7 downto 0) := "00100000";
+	 
+	type memory is array(65535 downto 0) of std_logic_vector(15 downto 0);
+	type registers is array(7 downto 0) of std_logic_vector(15 downto 0);
+	signal read_opcode,read_ra,write_ra,read_rb,write_rb,write_rc,read_6imm,read_9imm,perform_op : std_logic_vector;
+	signal ra_val,rb_val,rc_val,imm_val :std_logic_vector(15 downto 0);	
+	
+begin
+	process (clk)
+	begin
+		if(rising_edge(clk)) then
+			if(rst = '1') then
+				ra_val <= "0000000000000000";
+				rb_val <= "0000000000000000";
+				rc_val <= "0000000000000000";
+				imm_val <= "0000000000000000";
+				read_ra <= "0";
+				read_rb <= "0";
+				read_rc <= "0";
+				write_ra <= "0";
+				write_rb <= "0";
+				write_rc <= "0";
+				read_6imm <="0";
+				read_9imm <="0";
+				perform_op <="0";
+			else
+				
+		end if;
+	end process;
+	
+	process (clk)
+	begin
+		if(rising_edge(clk)) then
+			if (rst = '1') then
+				data_valid <= '0';
+				output <= ASCII_SPACE;
+				current_char <= ASCII_SPACE;
+				current_frequency <= BINARY_ZERO;	
+			else
+				if(STATE = 0) then
+						data_valid <= '0';
+						if(currentline_count + 1 < inputfileline_count ) then 
+								current_char <= input_buffer(currentline_count);
+								currentline_count <= currentline_count + 1;
+								current_frequency <= current_frequency+BINARY_ONE;
+								if(input_buffer(currentline_count) /= input_buffer(currentline_count + 1)) then
+									if(input_buffer(currentline_count) /= ASCII_ESC) then	
+										if(current_frequency = BINARY_ZERO) then
+											STATE <= 1; 
+										elsif(current_frequency = BINARY_ONE) then
+											STATE <= 2; 
+										else
+											STATE <= 3; 
+										end if;
+									else
+										STATE <= 3; 
+									end if;
+								elsif(input_buffer(currentline_count) /= ASCII_ESC and current_frequency = "00000100") then
+									STATE <= 3; 
+								elsif(input_buffer(currentline_count) = ASCII_ESC and current_frequency = "00000101") then
+									STATE <= 3; 
+								end if;
+						elsif(currentline_count = 63 and inputfileline_count = 64) then
+								current_char <= input_buffer(currentline_count);
+								currentline_count <= currentline_count + 1;
+								current_frequency <= current_frequency + BINARY_ONE;
+								if(input_buffer(currentline_count) /= ASCII_ESC) then	
+									if(current_frequency = BINARY_ZERO) then
+										STATE <= 1; 
+									elsif(current_frequency = BINARY_ONE) then
+										STATE <= 2; 
+									else
+										STATE <= 3; 
+									end if;
+								else
+									STATE <= 3; 
+								end if;
+						end if;
+						
+				elsif(STATE = 1) then
+					data_valid <= '1';
+					output <= current_char;
+					current_frequency <= BINARY_ZERO;
+					STATE <= 0; 
+					
+				elsif(STATE = 2) then
+					data_valid <= '1';
+					output <= current_char;
+					STATE <= 1; 
+					
+				elsif(STATE = 3) then
+					data_valid <= '1';
+					output <= ASCII_ESC;
+					STATE <= 4; 
+					
+				elsif(STATE = 4) then
+					data_valid <= '1';
+					output <= current_frequency;
+					STATE <= 1; 	
+				end if;
+				
+			end if;
+		end if;
+	end process;
+	
+end architecture;

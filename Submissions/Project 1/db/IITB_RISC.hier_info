@@ -1,0 +1,38 @@
+|IITB_RISC
+clk => ~NO_FANOUT~
+rst => ~NO_FANOUT~
+read_instruction => ~NO_FANOUT~
+starting_pc[0] => ~NO_FANOUT~
+starting_pc[1] => ~NO_FANOUT~
+starting_pc[2] => ~NO_FANOUT~
+starting_pc[3] => ~NO_FANOUT~
+starting_pc[4] => ~NO_FANOUT~
+starting_pc[5] => ~NO_FANOUT~
+starting_pc[6] => ~NO_FANOUT~
+starting_pc[7] => ~NO_FANOUT~
+starting_pc[8] => ~NO_FANOUT~
+starting_pc[9] => ~NO_FANOUT~
+starting_pc[10] => ~NO_FANOUT~
+starting_pc[11] => ~NO_FANOUT~
+starting_pc[12] => ~NO_FANOUT~
+starting_pc[13] => ~NO_FANOUT~
+starting_pc[14] => ~NO_FANOUT~
+starting_pc[15] => ~NO_FANOUT~
+instruction[0] => ~NO_FANOUT~
+instruction[1] => ~NO_FANOUT~
+instruction[2] => ~NO_FANOUT~
+instruction[3] => ~NO_FANOUT~
+instruction[4] => ~NO_FANOUT~
+instruction[5] => ~NO_FANOUT~
+instruction[6] => ~NO_FANOUT~
+instruction[7] => ~NO_FANOUT~
+instruction[8] => ~NO_FANOUT~
+instruction[9] => ~NO_FANOUT~
+instruction[10] => ~NO_FANOUT~
+instruction[11] => ~NO_FANOUT~
+instruction[12] => ~NO_FANOUT~
+instruction[13] => ~NO_FANOUT~
+instruction[14] => ~NO_FANOUT~
+instruction[15] => ~NO_FANOUT~
+
+

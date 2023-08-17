@@ -1,0 +1,36 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Top_entity is
+	port(reset,clock:in std_logic);
+end entity;
+
+architecture Top_entity_arc of Top_entity is
+
+begin
+
+component A_Reg is
+	port(D1: in std_logic_vector(15 downto 0);
+	AReg_write: in std_logic;
+	result_out: out std_logic_vector(15 downto 0));
+end component;
+
+component ALU_Reg is
+	port(ALU_C: in std_logic_vector(15 downto 0);
+	ALUReg_write: in std_logic;
+	result_out: out std_logic_vector(15 downto 0));
+end component;
+
+component ALU is
+	port( ALU_control: in std_logic_vector(1 downto 0); 
+			ALU_A: in std_logic_vector(15 downto 0); 
+			ALU_B: in std_logic_vector(15 downto 0);
+			ALU_C: out std_logic_vector(15 downto 0);
+			z: out std_logic;
+			c: out std_logic );
+	
+end component;
+
+
+
+end architecture;

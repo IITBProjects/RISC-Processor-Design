@@ -1,0 +1,35 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity Sign_extend is
+	port(ins_7to15:in std_logic_vector(8 downto 0);
+	imm6: in std_logic_vector;
+	imm_extended: out std_logic_vector(15 downto 0));
+end entity;
+
+architecture Sign_extend_arc of Sign_extend is
+	type regist is array(7 downto 0) of std_logic_vector(15 downto 0);
+	signal registers: regist;
+begin
+	D1 <= registers(to_integer(unsigned(A1)));
+	D2 <= registers(to_integer(unsigned(A2)));
+	
+	process (imm6,ins_7to15)
+	begin
+			if (imm6 = '1') then
+					if(ins_7t015(5) = '1') then
+							imm_extended <= "1111111111" & ins_7to15(5 down to 0); 
+					else then
+							imm_extended <= "0000000000" & ins_7to15(5 down to 0); 
+					end if;
+			else then
+					if(ins_7t015(8) = '1') then
+							imm_extended <= "1111111" & ins_7to15(8 down to 0); 
+					else then
+							imm_extended <= "0000000" & ins_7to15(8 down to 0); 
+					end if;
+			end if;
+	end process;
+	
+end architecture;

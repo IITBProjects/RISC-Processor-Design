@@ -1,0 +1,1313 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/simulation/modelsim
+Ea_reg
+Z1 w1651842468
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 4
+R0
+Z5 8/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/A_Reg.vhd
+Z6 F/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/A_Reg.vhd
+l0
+L5 1
+V]@Oj@7z1`zFLVD=b;lFBB1
+!s100 A?DoQCFPAcfcDzWi4zh6m0
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1652267905
+!i10b 1
+Z9 !s108 1652267905.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/A_Reg.vhd|
+Z11 !s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/A_Reg.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Aa_reg_arc
+R2
+R3
+R4
+DEx4 work 5 a_reg 0 22 ]@Oj@7z1`zFLVD=b;lFBB1
+!i122 4
+l13
+Z14 L11 12
+VL[j_8iOX?;@`oS2>LGCWM2
+!s100 I9QPbHE4d=GOV55kz::SF2
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eadd
+Z15 w1651837146
+R2
+R3
+R4
+!i122 10
+R0
+Z16 8/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/ADD.vhd
+Z17 F/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/ADD.vhd
+l0
+L5 1
+VOd25H:cl@]FIgmVf238zd2
+!s100 40h3Nzd9@zjc`@?i]n50P3
+R7
+31
+Z18 !s110 1652267906
+!i10b 1
+Z19 !s108 1652267906.000000
+Z20 !s90 -reportprogress|300|-93|-work|work|/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/ADD.vhd|
+Z21 !s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/ADD.vhd|
+!i113 1
+R12
+R13
+Aadd_arc
+R2
+R3
+R4
+DEx4 work 3 add 0 22 Od25H:cl@]FIgmVf238zd2
+!i122 10
+l28
+L15 52
+V1l^mZVWHnmheRB1?6=F3X2
+!s100 n6a?7g2QbJz6?I[3CWoEA2
+R7
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
+Eadd_4bit
+R15
+R2
+R3
+R4
+!i122 10
+R0
+R16
+R17
+l0
+L95 1
+V5:UfR:jn40_Yn:ZDaR;<W0
+!s100 X`bCSBDKAioUQSSXFCVT<1
+R7
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
+Aadd_4bit_arc
+R2
+R3
+R4
+DEx4 work 8 add_4bit 0 22 5:UfR:jn40_Yn:ZDaR;<W0
+!i122 10
+l118
+L105 52
+VMjJS3oA0`hLfmILe6B73Y2
+!s100 WHIjWoam]7;bVIh3;^`Ma0
+R7
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
+Ealu
+Z22 w1651849205
+R2
+Z23 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z24 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R3
+R4
+!i122 9
+R0
+Z25 8/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/ALU.vhd
+Z26 F/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/ALU.vhd
+l0
+L7 1
+VB29Sjol7=jo:QEEHz:L;a0
+!s100 Li2m_n9<VhVT[ljX_jdD?3
+R7
+31
+R18
+!i10b 1
+R9
+Z27 !s90 -reportprogress|300|-93|-work|work|/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/ALU.vhd|
+Z28 !s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/ALU.vhd|
+!i113 1
+R12
+R13
+Aalu_arct
+R2
+R23
+R24
+R3
+R4
+DEx4 work 3 alu 0 22 B29Sjol7=jo:QEEHz:L;a0
+!i122 9
+l30
+L17 46
+VHjNLmj>;XRYG1ibS@<S:g2
+!s100 ;ianFOKIa0<8]T[KQcL4?0
+R7
+31
+R18
+!i10b 1
+R9
+R27
+R28
+!i113 1
+R12
+R13
+Ealu_control
+Z29 w1651830790
+R3
+R4
+!i122 7
+R0
+Z30 8/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/ALU_control.vhd
+Z31 F/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/ALU_control.vhd
+l0
+L4 1
+V0X?La<=P5`m6A6FXCWPU63
+!s100 dodle`e4OEF@J[8Llkc501
+R7
+31
+R8
+!i10b 1
+R9
+Z32 !s90 -reportprogress|300|-93|-work|work|/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/ALU_control.vhd|
+Z33 !s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/ALU_control.vhd|
+!i113 1
+R12
+R13
+Aalu_control_arc
+R3
+R4
+DEx4 work 11 alu_control 0 22 0X?La<=P5`m6A6FXCWPU63
+!i122 7
+l11
+L10 6
+VTJSH`DWSU06j5W=aDfKK82
+!s100 ^0^B5Co=M=@iFmOJ3nI>g1
+R7
+31
+R8
+!i10b 1
+R9
+R32
+R33
+!i113 1
+R12
+R13
+Ealu_reg
+Z34 w1651842507
+R2
+R3
+R4
+!i122 8
+R0
+Z35 8/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/ALU_Reg.vhd
+Z36 F/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/ALU_Reg.vhd
+l0
+L5 1
+VYVTnhgZAB9MAe_ZZzQ3:Y3
+!s100 OdmU]Ce7OFi?<oBKAGO:53
+R7
+31
+R8
+!i10b 1
+R9
+Z37 !s90 -reportprogress|300|-93|-work|work|/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/ALU_Reg.vhd|
+Z38 !s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/ALU_Reg.vhd|
+!i113 1
+R12
+R13
+Aalu_reg_arc
+R2
+R3
+R4
+DEx4 work 7 alu_reg 0 22 YVTnhgZAB9MAe_ZZzQ3:Y3
+!i122 8
+l13
+R14
+V9n2DMC^jSTgB=`9XKUoeM3
+!s100 LfEa:0nT@54iNm6DBFac90
+R7
+31
+R8
+!i10b 1
+R9
+R37
+R38
+!i113 1
+R12
+R13
+Eb_reg
+Z39 w1651842518
+R2
+R3
+R4
+!i122 5
+R0
+Z40 8/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/B_Reg.vhd
+Z41 F/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/B_Reg.vhd
+l0
+L5 1
+VTo@VHg;FM]iRzSGS>E];72
+!s100 NKZJ50KV20Dh^1Cim1Haz0
+R7
+31
+R8
+!i10b 1
+R9
+Z42 !s90 -reportprogress|300|-93|-work|work|/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/B_Reg.vhd|
+Z43 !s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/B_Reg.vhd|
+!i113 1
+R12
+R13
+Ab_reg_arc
+R2
+R3
+R4
+DEx4 work 5 b_reg 0 22 To@VHg;FM]iRzSGS>E];72
+!i122 5
+l13
+R14
+V7OJS4]ESRDfI9BYccgSOl1
+!s100 6^CZ^NDGQiF<Omk]VM9:e2
+R7
+31
+R8
+!i10b 1
+R9
+R42
+R43
+!i113 1
+R12
+R13
+Ecarry_reg
+Z44 w1651842633
+R2
+R3
+R4
+!i122 26
+R0
+Z45 8/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/carry_Reg.vhd
+Z46 F/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/carry_Reg.vhd
+l0
+L5 1
+Vk64aUL9lOWoi<L]NdmKYK0
+!s100 ZOh=6AZS58f=o:^dG>@nj0
+R7
+31
+Z47 !s110 1652267907
+!i10b 1
+Z48 !s108 1652267907.000000
+Z49 !s90 -reportprogress|300|-93|-work|work|/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/carry_Reg.vhd|
+Z50 !s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/carry_Reg.vhd|
+!i113 1
+R12
+R13
+Acarry_reg_arc
+R2
+R3
+R4
+DEx4 work 9 carry_reg 0 22 k64aUL9lOWoi<L]NdmKYK0
+!i122 26
+l13
+R14
+VJk3Nc3UAb5RH0`2O`9z;Y0
+!s100 PjlRDVLcZ:>Nh?HkS`F3<2
+R7
+31
+R47
+!i10b 1
+R48
+R49
+R50
+!i113 1
+R12
+R13
+Econtroller
+Z51 w1651857039
+R2
+R23
+R24
+R3
+R4
+!i122 2
+R0
+Z52 8/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Controller.vhd
+Z53 F/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Controller.vhd
+l0
+L6 1
+VA0hb_69CV5f]D:AZX[K680
+!s100 <aUQ9fZ:[OB8MiiYbZe^I1
+R7
+31
+R8
+!i10b 1
+R9
+Z54 !s90 -reportprogress|300|-93|-work|work|/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Controller.vhd|
+Z55 !s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Controller.vhd|
+!i113 1
+R12
+R13
+Acontroller_arc
+R2
+R23
+R24
+R3
+R4
+DEx4 work 10 controller 0 22 A0hb_69CV5f]D:AZX[K680
+!i122 2
+l42
+L41 380
+VD1]3UC_k4;EP`g[k`JCYO1
+!s100 Xz8D7_WO86QBGJ8odcUeE2
+R7
+31
+R8
+!i10b 1
+R9
+R54
+R55
+!i113 1
+R12
+R13
+Efull_adder
+R15
+R2
+R3
+R4
+!i122 10
+R0
+R16
+R17
+l0
+L72 1
+VfYN]OJ?WIX4kO2_RY62>41
+!s100 NJQVd:a?i3Qglf4V:_k=M1
+R7
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
+Afull_adder_arc
+R2
+R3
+R4
+DEx4 work 10 full_adder 0 22 fYN]OJ?WIX4kO2_RY62>41
+!i122 10
+l84
+L82 8
+V?<OBjV0ed3f?NMPk?gOPW2
+!s100 FBg6UinR]bg8GF<GT4ZhV1
+R7
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
+Eir
+Z56 w1651842789
+R2
+R3
+R4
+!i122 3
+R0
+Z57 8/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/IR.vhd
+Z58 F/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/IR.vhd
+l0
+L5 1
+V99XTBj[<f4`I]LV:[[?zO3
+!s100 Z1@SH78eni^]]QHg>;Q3Y1
+R7
+31
+R8
+!i10b 1
+R9
+Z59 !s90 -reportprogress|300|-93|-work|work|/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/IR.vhd|
+Z60 !s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/IR.vhd|
+!i113 1
+R12
+R13
+Air_arc
+R2
+R3
+R4
+DEx4 work 2 ir 0 22 99XTBj[<f4`I]LV:[[?zO3
+!i122 3
+l19
+L17 18
+V7W=T=>o7c6[XZ^Qbn<e9X3
+!s100 TJOcn0BRJ2IXXgAbUWfL;0
+R7
+31
+R8
+!i10b 1
+R9
+R59
+R60
+!i113 1
+R12
+R13
+Eleft_shift
+R29
+R2
+R23
+R24
+R3
+R4
+!i122 11
+R0
+Z61 8/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/left_shift.vhd
+Z62 F/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/left_shift.vhd
+l0
+L6 1
+Vd[o`]jG;8^F_K`lQ<`CH01
+!s100 k5Az;6`m0X:AVT:9PeYH=0
+R7
+31
+R18
+!i10b 1
+R19
+Z63 !s90 -reportprogress|300|-93|-work|work|/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/left_shift.vhd|
+Z64 !s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/left_shift.vhd|
+!i113 1
+R12
+R13
+Ashift
+R2
+R23
+R24
+R3
+R4
+DEx4 work 10 left_shift 0 22 d[o`]jG;8^F_K`lQ<`CH01
+!i122 11
+l14
+Z65 L12 13
+VUWi:DIN@>8dBD>aY0E6;91
+!s100 P?hC`[XR5CZPmgJ]=N=e21
+R7
+31
+R18
+!i10b 1
+R19
+R63
+R64
+!i113 1
+R12
+R13
+Elmsm_reg
+Z66 w1651843063
+R2
+R23
+R24
+R3
+R4
+!i122 14
+R0
+Z67 8/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/LMSM_reg.vhd
+Z68 F/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/LMSM_reg.vhd
+l0
+L6 1
+VV12Ka8PBmjm2KO3YI0ilJ0
+!s100 Pcn89Z4>LzE19aH[8z1?<1
+R7
+31
+R18
+!i10b 1
+R19
+Z69 !s90 -reportprogress|300|-93|-work|work|/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/LMSM_reg.vhd|
+Z70 !s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/LMSM_reg.vhd|
+!i113 1
+R12
+R13
+Almsm_reg_arc
+R2
+R23
+R24
+R3
+R4
+DEx4 work 8 lmsm_reg 0 22 V12Ka8PBmjm2KO3YI0ilJ0
+!i122 14
+l19
+L14 24
+V_Ca3zl[6WXe`N[Zl9P@_62
+!s100 E9O=YMo3XVc?W_:3@h;4o2
+R7
+31
+R18
+!i10b 1
+R19
+R69
+R70
+!i113 1
+R12
+R13
+Emdr
+Z71 w1651842906
+R2
+R3
+R4
+!i122 15
+R0
+Z72 8/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/MDR.vhd
+Z73 F/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/MDR.vhd
+l0
+L5 1
+V^Y4:PT:L;ZZ<?]7KDRiol0
+!s100 dO^R@8jfQ3eW1Z`<Z8[oi1
+R7
+31
+R18
+!i10b 1
+R19
+Z74 !s90 -reportprogress|300|-93|-work|work|/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/MDR.vhd|
+Z75 !s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/MDR.vhd|
+!i113 1
+R12
+R13
+Amdr_arc
+R2
+R3
+R4
+DEx4 work 3 mdr 0 22 ^Y4:PT:L;ZZ<?]7KDRiol0
+!i122 15
+l13
+R14
+VflHEHKd`lPCC2EM^gA69W2
+!s100 ^mU_mSBkD7]@jjXVo89W;1
+R7
+31
+R18
+!i10b 1
+R19
+R74
+R75
+!i113 1
+R12
+R13
+Ememory
+Z76 w1651846144
+R2
+R3
+R4
+!i122 16
+R0
+Z77 8/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Memory.vhd
+Z78 F/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Memory.vhd
+l0
+L5 1
+V_]km`o26T@Yj=4ddIcBoQ2
+!s100 ZU^jP0_<L[zLLlK?MUVd20
+R7
+31
+R18
+!i10b 1
+R19
+Z79 !s90 -reportprogress|300|-93|-work|work|/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Memory.vhd|
+Z80 !s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Memory.vhd|
+!i113 1
+R12
+R13
+Amemory_arc
+R2
+R3
+R4
+DEx4 work 6 memory 0 22 _]km`o26T@Yj=4ddIcBoQ2
+!i122 16
+l15
+R65
+Vm50NNQgdWJ;00`hk8DSP_2
+!s100 A`<?eIDI3_`XRe9B4fzm[1
+R7
+31
+R18
+!i10b 1
+R19
+R79
+R80
+!i113 1
+R12
+R13
+Emux_before_alua
+Z81 w1651836878
+R2
+R3
+R4
+!i122 18
+R0
+Z82 8/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_ALUA.vhd
+Z83 F/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_ALUA.vhd
+l0
+L5 1
+VB3Cf^>4aE@RGKmaS>Ne<N3
+!s100 3D<B8NZmU=H?_B1h>_>Q;0
+R7
+31
+R18
+!i10b 1
+R19
+Z84 !s90 -reportprogress|300|-93|-work|work|/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_ALUA.vhd|
+Z85 !s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_ALUA.vhd|
+!i113 1
+R12
+R13
+Amux_before_alua_arc
+R2
+R3
+R4
+DEx4 work 15 mux_before_alua 0 22 B3Cf^>4aE@RGKmaS>Ne<N3
+!i122 18
+l14
+L13 15
+V81T1nY`39_Di_N8dcbV8n0
+!s100 h_L4IQ>A3AUzmNMh>1QAV0
+R7
+31
+R18
+!i10b 1
+R19
+R84
+R85
+!i113 1
+R12
+R13
+Emux_before_alub
+R29
+R2
+R3
+R4
+!i122 19
+R0
+Z86 8/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_ALUB.vhd
+Z87 F/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_ALUB.vhd
+l0
+L5 1
+V;_5hdizBWa4_=96=z8LLP0
+!s100 h19GPn7@T]889<3@]Q9NT3
+R7
+31
+R18
+!i10b 1
+R19
+Z88 !s90 -reportprogress|300|-93|-work|work|/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_ALUB.vhd|
+Z89 !s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_ALUB.vhd|
+!i113 1
+R12
+R13
+Amux_before_alub_arc
+R2
+R3
+R4
+DEx4 work 15 mux_before_alub 0 22 ;_5hdizBWa4_=96=z8LLP0
+!i122 19
+l14
+L13 16
+VB^`6K<hj0H4g^Ph>]b<SQ0
+!s100 9eDbINJIfW<mdM<Oc_UCD1
+R7
+31
+R18
+!i10b 1
+R19
+R88
+R89
+!i113 1
+R12
+R13
+Emux_before_mema1
+R29
+R2
+R3
+R4
+!i122 20
+R0
+Z90 8/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_MEMA1.vhd
+Z91 F/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_MEMA1.vhd
+l0
+L5 1
+VJ]O9<3EUM?9;J99ohPf7@2
+!s100 TA:PJCC]B>TC69BVjm18E0
+R7
+31
+R47
+!i10b 1
+R48
+Z92 !s90 -reportprogress|300|-93|-work|work|/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_MEMA1.vhd|
+Z93 !s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_MEMA1.vhd|
+!i113 1
+R12
+R13
+Amux_before_mema1_arc
+R2
+R3
+R4
+DEx4 work 16 mux_before_mema1 0 22 J]O9<3EUM?9;J99ohPf7@2
+!i122 20
+l15
+L14 14
+Ve_06YT4F?9iaU6Xgan9QI2
+!s100 9DGFdJ9mjd>bS[5439cgi0
+R7
+31
+R47
+!i10b 1
+R48
+R92
+R93
+!i113 1
+R12
+R13
+Emux_before_pc
+R29
+R2
+R3
+R4
+!i122 21
+R0
+Z94 8/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_pc.vhd
+Z95 F/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_pc.vhd
+l0
+L5 1
+V]SNcb:Ti[OPeNN1[KB>1m0
+!s100 d;U?Nd=7aB5znEA;`a^^e0
+R7
+31
+R47
+!i10b 1
+R48
+Z96 !s90 -reportprogress|300|-93|-work|work|/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_pc.vhd|
+Z97 !s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_pc.vhd|
+!i113 1
+R12
+R13
+Amux_before_pc_arc
+R2
+R3
+R4
+DEx4 work 13 mux_before_pc 0 22 ]SNcb:Ti[OPeNN1[KB>1m0
+!i122 21
+l14
+Z98 L13 14
+VnUQJehhB0h0Lf]@>aKAkL3
+!s100 fgnd2ddL?jINNJ_OePOo81
+R7
+31
+R47
+!i10b 1
+R48
+R96
+R97
+!i113 1
+R12
+R13
+Emux_before_rfa1
+R29
+R2
+R3
+R4
+!i122 22
+R0
+Z99 8/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_RFA1.vhd
+Z100 F/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_RFA1.vhd
+l0
+L5 1
+VPH>]MTVo<B@UR^@T]Y9@f3
+!s100 70m]YH?T?dBRbaELM1Cz`3
+R7
+31
+R47
+!i10b 1
+R48
+Z101 !s90 -reportprogress|300|-93|-work|work|/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_RFA1.vhd|
+Z102 !s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_RFA1.vhd|
+!i113 1
+R12
+R13
+Amux_before_rfa1_arc
+R2
+R3
+R4
+DEx4 work 15 mux_before_rfa1 0 22 PH>]MTVo<B@UR^@T]Y9@f3
+!i122 22
+l14
+R98
+V6Gdfe<5oNCc[06Q<z3Xll3
+!s100 loe@c8O>gaPn0Q^0[ZVbZ2
+R7
+31
+R47
+!i10b 1
+R48
+R101
+R102
+!i113 1
+R12
+R13
+Emux_before_rfa2
+R29
+R2
+R3
+R4
+!i122 23
+R0
+Z103 8/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_RFA2.vhd
+Z104 F/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_RFA2.vhd
+l0
+L5 1
+Vo49Cdn?>LmhAHRbEW^_LO2
+!s100 O?91Zeo=[[lM@95[Whg<K3
+R7
+31
+R47
+!i10b 1
+R48
+Z105 !s90 -reportprogress|300|-93|-work|work|/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_RFA2.vhd|
+Z106 !s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_RFA2.vhd|
+!i113 1
+R12
+R13
+Amux_before_rfa2_arc
+R2
+R3
+R4
+DEx4 work 15 mux_before_rfa2 0 22 o49Cdn?>LmhAHRbEW^_LO2
+!i122 23
+l14
+R98
+V8HKKQle42:N?@Jm8S2f;M3
+!s100 R06cla2A=WAdJj@hHQGI92
+R7
+31
+R47
+!i10b 1
+R48
+R105
+R106
+!i113 1
+R12
+R13
+Emux_before_rfa3
+R29
+R2
+R3
+R4
+!i122 24
+R0
+Z107 8/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_RFA3.vhd
+Z108 F/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_RFA3.vhd
+l0
+L5 1
+Vn>MJG>WiGoDl:LW]O;Nz:1
+!s100 YTFd^5Kd8Y>L<@<z_=kK>2
+R7
+31
+R47
+!i10b 1
+R48
+Z109 !s90 -reportprogress|300|-93|-work|work|/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_RFA3.vhd|
+Z110 !s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_RFA3.vhd|
+!i113 1
+R12
+R13
+Amux_before_rfa3_arc
+R2
+R3
+R4
+DEx4 work 15 mux_before_rfa3 0 22 n>MJG>WiGoDl:LW]O;Nz:1
+!i122 24
+l13
+L12 14
+V[UHmH=S_gkiBG_N5=[cZ51
+!s100 7Ie<:1;fkThg?6i[hk[;33
+R7
+31
+R47
+!i10b 1
+R48
+R109
+R110
+!i113 1
+R12
+R13
+Emux_before_rfd3
+Z111 w1651839184
+R2
+R3
+R4
+!i122 0
+R0
+Z112 8/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_RFD3 .vhd
+Z113 F/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_RFD3 .vhd
+l0
+L5 1
+Vb=IfVA_AS1<S4L9FCCznL1
+!s100 ZFT2eM^mziC5hNk91ZONU1
+R7
+31
+R8
+!i10b 1
+R9
+Z114 !s90 -reportprogress|300|-93|-work|work|/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_RFD3 .vhd|
+Z115 !s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_RFD3 .vhd|
+!i113 1
+R12
+R13
+Amux_before_rfd3_arc
+R2
+R3
+R4
+DEx4 work 15 mux_before_rfd3 0 22 b=IfVA_AS1<S4L9FCCznL1
+!i122 0
+l16
+L15 18
+VId<n_U2I20gjBVLLl8VE70
+!s100 6zfd=A@kCgcPOSaLBTg5e2
+R7
+31
+R8
+!i10b 1
+R9
+R114
+R115
+!i113 1
+R12
+R13
+Emux_before_zeroreg
+R29
+R2
+R3
+R4
+!i122 27
+R0
+Z116 8/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_zeroreg.vhd
+Z117 F/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_zeroreg.vhd
+l0
+L5 1
+VVM?f`5D<jP@n[WJ`Zia_f2
+!s100 0Nh_;kU8X9S?e^AA;W4d:2
+R7
+31
+R47
+!i10b 1
+R48
+Z118 !s90 -reportprogress|300|-93|-work|work|/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_zeroreg.vhd|
+!s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_zeroreg.vhd|
+!i113 1
+R12
+R13
+Amux_before_zeroreg_arc
+R2
+R3
+R4
+DEx4 work 18 mux_before_zeroreg 0 22 VM?f`5D<jP@n[WJ`Zia_f2
+!i122 27
+l14
+L13 17
+VWK?c<]Id13gQ>=M67G4hQ2
+!s100 a`]<fVHjQ^:m<681ZXG@41
+R7
+31
+R47
+!i10b 1
+R48
+R118
+Z119 !s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_zeroreg.vhd|
+!i113 1
+R12
+R13
+Epc
+Z120 w1651846225
+R2
+R3
+R4
+!i122 6
+R0
+Z121 8/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/pc.vhd
+Z122 F/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/pc.vhd
+l0
+L5 1
+V<56LHMd^cPTO0^KQ5<gSf2
+!s100 SN>g<>nI[YE1^TRo=gCbP2
+R7
+31
+R8
+!i10b 1
+R9
+Z123 !s90 -reportprogress|300|-93|-work|work|/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/pc.vhd|
+Z124 !s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/pc.vhd|
+!i113 1
+R12
+R13
+Apc_arc
+R2
+R3
+R4
+DEx4 work 2 pc 0 22 <56LHMd^cPTO0^KQ5<gSf2
+!i122 6
+l13
+R14
+VX48z5=Cegna6bC5_Rz7aE0
+!s100 i]hjAfik:O2zYnEa9HTz_0
+R7
+31
+R8
+!i10b 1
+R9
+R123
+R124
+!i113 1
+R12
+R13
+Eregister_file
+Z125 w1651842172
+R2
+R3
+R4
+!i122 17
+R0
+Z126 8/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Register_File.vhd
+Z127 F/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Register_File.vhd
+l0
+L5 1
+VhZJHBeO`:Re6U1gWiQ<4P0
+!s100 BBS]lJXBzLekKc_zEBl7J2
+R7
+31
+R18
+!i10b 1
+R19
+Z128 !s90 -reportprogress|300|-93|-work|work|/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Register_File.vhd|
+Z129 !s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Register_File.vhd|
+!i113 1
+R12
+R13
+Aregister_file_arc
+R2
+R3
+R4
+DEx4 work 13 register_file 0 22 hZJHBeO`:Re6U1gWiQ<4P0
+!i122 17
+l15
+L12 15
+VoSe8VcYnk^@hz?IiN^PNZ3
+!s100 XgJ4^B22kfGiZ4>;dlUb22
+R7
+31
+R18
+!i10b 1
+R19
+R128
+R129
+!i113 1
+R12
+R13
+Eshift_left7
+R29
+R2
+R3
+R4
+!i122 12
+R0
+Z130 8/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Shift_left7.vhd
+Z131 F/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Shift_left7.vhd
+l0
+L5 1
+V0V6[JYGLWo`UHRP=R<kLH2
+!s100 GXGkT807?KJnUZNA_CWh@1
+R7
+31
+R18
+!i10b 1
+R19
+Z132 !s90 -reportprogress|300|-93|-work|work|/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Shift_left7.vhd|
+Z133 !s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Shift_left7.vhd|
+!i113 1
+R12
+R13
+Ashift_left7_arc
+R2
+R3
+R4
+DEx4 work 11 shift_left7 0 22 0V6[JYGLWo`UHRP=R<kLH2
+!i122 12
+l11
+L10 5
+V4CLWMMnLho9;0RCO[[doP1
+!s100 o8HBC5O>@g98AR2YE7LMm2
+R7
+31
+R18
+!i10b 1
+R19
+R132
+R133
+!i113 1
+R12
+R13
+Esign_extend
+R29
+R2
+R3
+R4
+!i122 13
+R0
+Z134 8/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Sign_extend.vhd
+Z135 F/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Sign_extend.vhd
+l0
+L5 1
+V:WKnn<Xd[Q?]hE7AeUmCW3
+!s100 CB<gmUNFK`XGTM_2UmA_M3
+R7
+31
+R18
+!i10b 1
+R19
+Z136 !s90 -reportprogress|300|-93|-work|work|/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Sign_extend.vhd|
+Z137 !s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Sign_extend.vhd|
+!i113 1
+R12
+R13
+Asign_extend_arc
+R2
+R3
+R4
+DEx4 work 11 sign_extend 0 22 :WKnn<Xd[Q?]hE7AeUmCW3
+!i122 13
+l12
+L11 20
+V6iC=KL5WK[PELHcc`?oR;2
+!s100 3R7STNTAPoS_g:UUkURWK3
+R7
+31
+R18
+!i10b 1
+R19
+R136
+R137
+!i113 1
+R12
+R13
+Etop_entity
+Z138 w1651857020
+R3
+R4
+!i122 1
+R0
+Z139 8/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Top_entity.vhd
+Z140 F/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Top_entity.vhd
+l0
+L4 1
+VBE;K=7e=kTU28=4AXOeiG1
+!s100 0@4QkoE?9OJ4HlF3a3MHT0
+R7
+31
+R8
+!i10b 1
+R9
+Z141 !s90 -reportprogress|300|-93|-work|work|/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Top_entity.vhd|
+Z142 !s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Top_entity.vhd|
+!i113 1
+R12
+R13
+Atop_entity_arc
+R3
+R4
+DEx4 work 10 top_entity 0 22 BE;K=7e=kTU28=4AXOeiG1
+!i122 1
+l247
+L8 343
+VjKe964XUXkD;0?>D[=5Y12
+!s100 _09VXCHzgzRk_Ekmlgh>`0
+R7
+31
+R8
+!i10b 1
+R9
+R141
+R142
+!i113 1
+R12
+R13
+Ezero_reg
+Z143 w1651842982
+R2
+R3
+R4
+!i122 25
+R0
+Z144 8/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/zero_Reg.vhd
+Z145 F/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/zero_Reg.vhd
+l0
+L5 1
+VDbklB7lOM^4H9anOXRThD2
+!s100 96_@=c2Jm::m@zaHEKZ5B0
+R7
+31
+R47
+!i10b 1
+R48
+Z146 !s90 -reportprogress|300|-93|-work|work|/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/zero_Reg.vhd|
+Z147 !s107 /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/zero_Reg.vhd|
+!i113 1
+R12
+R13
+Azero_reg_arc
+R2
+R3
+R4
+DEx4 work 8 zero_reg 0 22 DbklB7lOM^4H9anOXRThD2
+!i122 25
+l13
+R14
+VmeN=S23cKln][E79M46282
+!s100 jE14BQdLb0b7n>cMjPEd32
+R7
+31
+R47
+!i10b 1
+R48
+R146
+R147
+!i113 1
+R12
+R13

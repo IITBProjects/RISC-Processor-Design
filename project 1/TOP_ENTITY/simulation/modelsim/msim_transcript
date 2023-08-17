@@ -1,0 +1,455 @@
+# ERROR: No extended dataflow license exists
+# do Top_entity_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /home/margav/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_RFD3 .vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:25 on May 11,2022
+# vcom -reportprogress 300 -93 -work work /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_RFD3 .vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux_before_RFD3
+# -- Compiling architecture mux_before_RFD3_arc of mux_before_RFD3
+# End time: 16:48:25 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Top_entity.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:25 on May 11,2022
+# vcom -reportprogress 300 -93 -work work /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Top_entity.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Top_entity
+# -- Compiling architecture Top_entity_arc of Top_entity
+# End time: 16:48:25 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Controller.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:25 on May 11,2022
+# vcom -reportprogress 300 -93 -work work /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Controller.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Controller
+# -- Compiling architecture Controller_arc of Controller
+# End time: 16:48:25 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/IR.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:25 on May 11,2022
+# vcom -reportprogress 300 -93 -work work /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/IR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity IR
+# -- Compiling architecture IR_arc of IR
+# End time: 16:48:25 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/A_Reg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:25 on May 11,2022
+# vcom -reportprogress 300 -93 -work work /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/A_Reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity A_Reg
+# -- Compiling architecture A_Reg_arc of A_Reg
+# End time: 16:48:25 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/B_Reg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:25 on May 11,2022
+# vcom -reportprogress 300 -93 -work work /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/B_Reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity B_Reg
+# -- Compiling architecture B_Reg_arc of B_Reg
+# End time: 16:48:25 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/pc.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:25 on May 11,2022
+# vcom -reportprogress 300 -93 -work work /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/pc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pc
+# -- Compiling architecture pc_arc of pc
+# End time: 16:48:25 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/ALU_control.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:25 on May 11,2022
+# vcom -reportprogress 300 -93 -work work /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/ALU_control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU_control
+# -- Compiling architecture ALU_control_arc of ALU_control
+# End time: 16:48:25 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/ALU_Reg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:25 on May 11,2022
+# vcom -reportprogress 300 -93 -work work /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/ALU_Reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU_Reg
+# -- Compiling architecture ALU_Reg_arc of ALU_Reg
+# End time: 16:48:25 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:25 on May 11,2022
+# vcom -reportprogress 300 -93 -work work /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# -- Compiling architecture ALU_arct of ALU
+# End time: 16:48:26 on May 11,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/ADD.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:26 on May 11,2022
+# vcom -reportprogress 300 -93 -work work /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/ADD.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ADD
+# -- Compiling architecture ADD_arc of ADD
+# -- Compiling entity full_adder
+# -- Compiling architecture full_adder_arc of full_adder
+# -- Compiling entity ADD_4bit
+# -- Compiling architecture ADD_4bit_arc of ADD_4bit
+# End time: 16:48:26 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/left_shift.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:26 on May 11,2022
+# vcom -reportprogress 300 -93 -work work /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/left_shift.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity left_shift
+# -- Compiling architecture shift of left_shift
+# End time: 16:48:26 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Shift_left7.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:26 on May 11,2022
+# vcom -reportprogress 300 -93 -work work /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Shift_left7.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Shift_left7
+# -- Compiling architecture Shift_left7_arc of Shift_left7
+# End time: 16:48:26 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Sign_extend.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:26 on May 11,2022
+# vcom -reportprogress 300 -93 -work work /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Sign_extend.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Sign_extend
+# -- Compiling architecture Sign_extend_arc of Sign_extend
+# End time: 16:48:26 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/LMSM_reg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:26 on May 11,2022
+# vcom -reportprogress 300 -93 -work work /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/LMSM_reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LMSM_reg
+# -- Compiling architecture LMSM_reg_arc of LMSM_reg
+# End time: 16:48:26 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/MDR.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:26 on May 11,2022
+# vcom -reportprogress 300 -93 -work work /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/MDR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity MDR
+# -- Compiling architecture MDR_arc of MDR
+# End time: 16:48:26 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Memory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:26 on May 11,2022
+# vcom -reportprogress 300 -93 -work work /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Memory
+# -- Compiling architecture Memory_arc of Memory
+# End time: 16:48:26 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Register_File.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:26 on May 11,2022
+# vcom -reportprogress 300 -93 -work work /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/Register_File.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Register_File
+# -- Compiling architecture Register_File_arc of Register_File
+# End time: 16:48:26 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_ALUA.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:26 on May 11,2022
+# vcom -reportprogress 300 -93 -work work /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_ALUA.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux_before_ALUA
+# -- Compiling architecture mux_before_ALUA_arc of mux_before_ALUA
+# End time: 16:48:26 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_ALUB.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:26 on May 11,2022
+# vcom -reportprogress 300 -93 -work work /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_ALUB.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux_before_ALUB
+# -- Compiling architecture mux_before_ALUB_arc of mux_before_ALUB
+# End time: 16:48:26 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_MEMA1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:27 on May 11,2022
+# vcom -reportprogress 300 -93 -work work /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_MEMA1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux_before_MEMA1
+# -- Compiling architecture mux_before_MEMA1_arc of mux_before_MEMA1
+# End time: 16:48:27 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_pc.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:27 on May 11,2022
+# vcom -reportprogress 300 -93 -work work /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_pc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux_before_pc
+# -- Compiling architecture mux_before_pc_arc of mux_before_pc
+# End time: 16:48:27 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_RFA1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:27 on May 11,2022
+# vcom -reportprogress 300 -93 -work work /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_RFA1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux_before_RFA1
+# -- Compiling architecture mux_before_RFA1_arc of mux_before_RFA1
+# End time: 16:48:27 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_RFA2.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:27 on May 11,2022
+# vcom -reportprogress 300 -93 -work work /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_RFA2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux_before_RFA2
+# -- Compiling architecture mux_before_RFA2_arc of mux_before_RFA2
+# End time: 16:48:27 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_RFA3.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:27 on May 11,2022
+# vcom -reportprogress 300 -93 -work work /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_RFA3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux_before_RFA3
+# -- Compiling architecture mux_before_RFA3_arc of mux_before_RFA3
+# End time: 16:48:27 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/zero_Reg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:27 on May 11,2022
+# vcom -reportprogress 300 -93 -work work /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/zero_Reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity zero_Reg
+# -- Compiling architecture zero_Reg_arc of zero_Reg
+# End time: 16:48:27 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/carry_Reg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:27 on May 11,2022
+# vcom -reportprogress 300 -93 -work work /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/carry_Reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity carry_Reg
+# -- Compiling architecture carry_Reg_arc of carry_Reg
+# End time: 16:48:27 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_zeroreg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:27 on May 11,2022
+# vcom -reportprogress 300 -93 -work work /home/margav/Desktop/sem 4/cs232/project/TOP_ENTITY/mux_before_zeroreg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux_before_zeroreg
+# -- Compiling architecture mux_before_zeroreg_arc of mux_before_zeroreg
+# End time: 16:48:27 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# stdin: <EOF>
+vsim work.top_entity
+# vsim work.top_entity 
+# Start time: 16:48:38 on May 11,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.top_entity(top_entity_arc)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.controller(controller_arc)
+# Loading work.ir(ir_arc)
+# Loading work.a_reg(a_reg_arc)
+# Loading work.b_reg(b_reg_arc)
+# Loading work.pc(pc_arc)
+# Loading work.alu_control(alu_control_arc)
+# Loading work.alu_reg(alu_reg_arc)
+# Loading work.alu(alu_arct)
+# Loading work.add(add_arc)
+# Loading work.add_4bit(add_4bit_arc)
+# Loading work.full_adder(full_adder_arc)
+# Loading work.left_shift(shift)
+# Loading work.shift_left7(shift_left7_arc)
+# Loading work.sign_extend(sign_extend_arc)
+# Loading work.lmsm_reg(lmsm_reg_arc)
+# Loading work.mdr(mdr_arc)
+# Loading work.memory(memory_arc)
+# Loading work.register_file(register_file_arc)
+# Loading work.mux_before_alua(mux_before_alua_arc)
+# Loading work.mux_before_alub(mux_before_alub_arc)
+# Loading work.mux_before_mema1(mux_before_mema1_arc)
+# Loading work.mux_before_pc(mux_before_pc_arc)
+# Loading work.mux_before_rfa1(mux_before_rfa1_arc)
+# Loading work.mux_before_rfa2(mux_before_rfa2_arc)
+# Loading work.mux_before_rfa3(mux_before_rfa3_arc)
+# Loading work.mux_before_rfd3(mux_before_rfd3_arc)
+# Loading work.zero_reg(zero_reg_arc)
+# Loading work.carry_reg(carry_reg_arc)
+# Loading work.mux_before_zeroreg(mux_before_zeroreg_arc)
+add wave -position insertpoint sim:/top_entity/*
+force -freeze sim:/top_entity/rst 1 0
+force -freeze sim:/top_entity/clk 0 0, 1 {50 ps} -r 100
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_entity/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_entity/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_entity/MEMORY1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /top_entity/LMSM_REG1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /top_entity/LMSM_REG1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /top_entity/LMSM_REG1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /top_entity/LMSM_REG1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_entity/ALU1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /top_entity/LMSM_REG1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /top_entity/LMSM_REG1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /top_entity/LMSM_REG1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /top_entity/LMSM_REG1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50 ps  Iteration: 6  Instance: /top_entity/ALU1
+force -freeze sim:/top_entity/rst 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 16:49:38 on May 11,2022, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 13

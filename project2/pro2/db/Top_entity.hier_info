@@ -1,0 +1,5 @@
+|Top_entity
+rst => ~NO_FANOUT~
+clk => ~NO_FANOUT~
+
+

@@ -1,0 +1,92 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Controller is
+	port(state: in std_logic_vector(4 downto 0);
+	opcode: in std_logic_vector(3 downto 0);
+	c, z: in std_logic;
+	condition: in std_logic_vector(1 downto 0);
+	
+	nextState: out std_logic_vector(4 downto 0));
+end entity;
+
+architecture arch of Controller is 
+begin
+	process(state, opcode, c, z, condition)
+	begin
+		case state is
+			when "00000" => -- State 0
+				nextState <= "00001"; -- ALL
+			when "00001" => -- State 1 
+				if ((opcode = "0001" AND (condition = "00" OR (condition = "01" AND z = '1') OR (condition = "10" AND c = '1') OR condition = "11")) OR opcode = "0000" OR (opcode = "0010" AND (condition = "00" OR (condition = "10" AND c = '1') OR (condition = "01" AND z = '1'))) OR opcode = "0101" OR opcode = "0111" OR opcode = "1000") then
+					nextState <= "00010"; -- ADD, ADC, ADZ, ADL, ADI, NDU, NDC, NDZ, LW, SW, BEQ => 2 
+				elsif opcode = "0011" then
+					nextState <= "01001"; -- LHI => 9
+				elsif opcode = "1101" OR opcode = "1100" then
+					nextState <= "01011"; -- LM, SM => 11
+				elsif opcode = "1001" then
+					nextState <= "01110"; -- JAL => 14
+				elsif opcode = "1010" then
+					nextState <= "10000"; -- JLR => 16
+				elsif opcode = "1011" then
+					nextState <= "10010"; -- JRI => 18
+				else
+					nextState <= "00000"; -- Skip => 0
+				end if;
+			when "00010" => -- State 2
+				if(opcode = "0000") then
+					nextState <= "00101"; -- ADL => 5
+				elsif (opcode = "0000" OR opcode = "0101" OR opcode = "0111") then
+					nextState <= "00110"; -- LW, SW, ADI => 6
+				else
+					nextState <= "00011"; -- ADD, ADC, ADZ, NDU, NDC, NDZ, BEQ => 3
+				end if;
+			when "00011" => -- State 3
+				if(opcode = "1000") then
+					nextState <= "01010"; -- BEQ => 10
+				else 
+					nextState <= "00100"; -- ADD, ADC, ADZ, NDU, NDC, NDZ, ADL=> 4
+				end if;
+			when "00100" => -- State 4
+				nextState <= "00000"; -- ALL => 0
+			when "00101" => -- State 5
+				nextState <= "00011"; -- ADL => 3
+			when "00110" => -- State 6
+				if (opcode = "0101") then
+					nextState <= "00111"; -- LW => 7
+				elsif (opcode = "0111") then
+					nextState <= "01000"; -- SW => 8
+				else
+					nextState <= "00100"; -- ADI => 4
+				end if;
+			when "00111" => -- State 7
+				nextState <= "00100"; -- LW => 4
+			when "01000" => -- State 8
+				nextState <= "00000"; -- SW => 0
+			when "01001" => -- State 9
+				nextState <= "00100"; -- LHI => 4
+			when "01010" => -- State 10
+				nextState <= "00000"; -- BEQ => 0
+			when "01011" => -- State 11
+				nextState <= "01100"; -- LM, SM => 12		
+			when "01100" => -- State 12
+				nextState <= "01101"; -- LM, SM => 13
+			when "01101" => -- State 13
+				nextState <= "00000"; -- LM, SM => 0
+			when "01110" => -- State 14
+				nextState <= "01111"; -- JAL => 15
+			when "01111" => -- State 15
+				nextState <= "00000"; -- JAL => 0
+			when "10000" => -- State 16
+				nextState <= "10001"; -- JLR => 17
+			when "10001" => -- State 17
+				nextState <= "00000"; -- JLR => 0
+			when "10010" => -- State 18
+				nextState <= "10011"; -- JRI => 19
+			when "10011" => -- State 19
+				nextState <= "00000"; -- JRI => 0
+			when others  => 
+				nextState <= "00000"; -- Skip => 0
+		end case;
+	end process;
+end architecture;
